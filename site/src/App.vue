@@ -1,3 +1,4 @@
+
 <template>
     <body>
         <div id="app">
@@ -7,7 +8,10 @@
                     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
                     <b-collapse id="nav-collapse" is-nav>
                         <b-navbar-nav>
-                            <b-nav-item v-on:click="changePage('/games/picnic')">Games</b-nav-item>
+                            <b-nav-item-dropdown text="Games" right>
+                                    <b-dropdown-item v-on:click="changePage('/games/picnic')">Picnic!</b-dropdown-item>
+                                    <b-dropdown-item v-on:click="changePage('/games/perennial')">Perennial</b-dropdown-item>
+                            </b-nav-item-dropdown>
                         </b-navbar-nav>
                     </b-collapse>
                 </b-navbar>
@@ -37,8 +41,5 @@ body, html {
   margin: 0;
   width: 100%;
   min-height: 100vh;
-}
-body {
-  background-color: #856cd8;
 }
 </style>
