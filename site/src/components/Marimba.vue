@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <h1>Picnic!</h1>
+    <h1>Marimba</h1>
   </div>
 </template>
 

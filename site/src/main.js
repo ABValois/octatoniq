@@ -6,6 +6,8 @@ import VueRouter from 'vue-router'
 import routes from './routes';
 import App from './App.vue'
 
+import "bootswatch/dist/pulse/bootstrap.min.css"; 
+
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)

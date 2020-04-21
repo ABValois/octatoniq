@@ -3,14 +3,22 @@
     <body>
         <div id="app">
             <div>
-                <b-navbar toggleable="lg" type="dark" variant="purple">
+                <b-navbar toggleable="lg" type="dark" variant="primary">
                     <b-navbar-brand v-on:click="changePage('/')">Octatoniq</b-navbar-brand>
                     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
                     <b-collapse id="nav-collapse" is-nav>
                         <b-navbar-nav>
+                            <b-nav-item v-on:click="changePage('/about')">About</b-nav-item>
                             <b-nav-item-dropdown text="Games" right>
                                     <b-dropdown-item v-on:click="changePage('/games/picnic')">Picnic!</b-dropdown-item>
                                     <b-dropdown-item v-on:click="changePage('/games/perennial')">Perennial</b-dropdown-item>
+                            </b-nav-item-dropdown>
+                            <b-nav-item-dropdown text="Music" right>
+                                    <b-dropdown-item v-on:click="changePage('/music/marimba')">Marimba Solos</b-dropdown-item>
+                            </b-nav-item-dropdown>
+                            <b-nav-item-dropdown text="Games" right>
+                                    <b-dropdown-item v-on:click="changePage('/technology/thissite')">This Site</b-dropdown-item>
+                                    <b-dropdown-item v-on:click="changePage('/technology/career')">Career</b-dropdown-item>
                             </b-nav-item-dropdown>
                         </b-navbar-nav>
                     </b-collapse>
@@ -31,15 +39,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.bg-purple {
-    background-color: #6141c4;
-}
-body, html {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  min-height: 100vh;
-}
-</style>

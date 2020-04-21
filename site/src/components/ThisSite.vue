@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <h1>Picnic!</h1>
+    <h1>This Site</h1>
   </div>
 </template>
 
