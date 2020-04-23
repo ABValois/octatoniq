@@ -16,7 +16,7 @@
                             <b-nav-item-dropdown text="Music" right>
                                     <b-dropdown-item v-on:click="changePage('/music/marimba')">Marimba Solos</b-dropdown-item>
                             </b-nav-item-dropdown>
-                            <b-nav-item-dropdown text="Games" right>
+                            <b-nav-item-dropdown text="Technology" right>
                                     <b-dropdown-item v-on:click="changePage('/technology/thissite')">This Site</b-dropdown-item>
                                     <b-dropdown-item v-on:click="changePage('/technology/career')">Career</b-dropdown-item>
                             </b-nav-item-dropdown>
