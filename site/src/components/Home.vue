@@ -1,8 +1,7 @@
 
 <template>
   <div>
-    <img alt="construction logo" src="./../assets/logo.png">
-    <h1>Under Construction</h1>
+    <h1>Home</h1>
   </div>
 </template>
 
@@ -11,9 +10,3 @@ export default {
 
 }
 </script>
-
-<style scoped>
-h1 {
-  color: #de8512;
-}
-</style>
