@@ -27,8 +27,8 @@
       It can be daunting to tackle a project like hosting a site when you have never done something like that before, but don't worry: there are 
       <a href="https://www.google.com/search?q=host+vue+site+on+cloudfront">PLENTY of resources to help you along on the internet.</a>
       <br>
-      I learned most of this myself by googling things while I was in college and a junior engineer. But lucky you! You found this site, and my example, 
-      and you can start by simply downloading it and trying to run it yourself!
+      I learned most of this myself by googling things while I was in college and a junior engineer. But lucky you! You found this site, and 
+      <a href="https://github.com/ABValois/octatoniq">my example,</a> and you can start by simply downloading it and trying to run it yourself!
       <br><br>
 
       Once you have my example running, you can play around with things and make it suit your needs better/figure out how things work. Happy websiting!
