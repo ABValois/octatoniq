@@ -4,7 +4,9 @@
         <div id="app">
             <div>
                 <b-navbar toggleable="lg" type="dark" variant="primary">
-                    <b-navbar-brand v-on:click="changePage('/')"><img alt="Octatoniq" src="./assets/logo.png" width="100" height="100"></b-navbar-brand>
+                    <b-navbar-brand v-on:click="changePage('/')">
+                        <img alt="Octatoniq" src="./assets/logo.png" width="100" height="100" class="logo">
+                    </b-navbar-brand>
                     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
                     <b-collapse id="nav-collapse" is-nav>
                         <b-navbar-nav>
@@ -39,3 +41,9 @@ export default {
     }
 }
 </script>
+
+<style>
+.logo:hover {
+  opacity: 0.7;
+}
+</style>
