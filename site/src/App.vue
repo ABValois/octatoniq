@@ -20,8 +20,8 @@
                             </b-nav-item-dropdown>
                             <b-nav-item-dropdown text="Technology" right>
                                     <b-dropdown-item v-on:click="changePage('/technology/thissite')">This Site</b-dropdown-item>
-                                    <b-dropdown-item v-on:click="changePage('/technology/career')">Career</b-dropdown-item>
                             </b-nav-item-dropdown>
+                            <b-nav-item v-on:click="changePage('/contact')">Contact</b-nav-item>
                         </b-navbar-nav>
                     </b-collapse>
                 </b-navbar>
